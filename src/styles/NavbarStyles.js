@@ -8,6 +8,7 @@ const styles = {
 		justifyContent: "flex-start",
 		height: "5.5vh",
 		[sizes.down("xs")]: {
+			height: "6vh",
 			fontSize: "15px",
 			lineHeight: "15px"
 		}

@@ -8,7 +8,10 @@ const styles = {
 		overflow: "hidden"
 	},
 	paletteColors: {
-		height: "90vh"
+		height: "90vh",
+		[sizes.down("xs")]: {
+			height: "89vh"
+		}
 	},
 	goBackArea: {
 		width: "20%",

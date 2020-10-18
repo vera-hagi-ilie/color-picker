@@ -50,7 +50,10 @@ const styles = {
 		bottom: "0px",
 		padding: "10px",
 		letterSpacing: "1px",
-		fontSize: "12px"
+		fontSize: "12px",
+		[sizes.down("xs")]: {
+			padding: "5px 5px 5px 10px"
+		}
 	},
 	copyButton: {
 		width: "100px",
