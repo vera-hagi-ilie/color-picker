@@ -52,10 +52,7 @@ const styles = {
 		border: "none",
 		textDecoration: "none",
 		color: "white",
-		cursor:"pointer",
-		[sizes.down("xs")]: {
-			height: "30px",
-		}
+		cursor:"pointer"
 	}
 }
 
