@@ -32,7 +32,7 @@ const styles = {
 		},
 		[sizes.down("xs")]: {
 			width: "100%",
-			height: "10%"
+			height: "8%"
 		}
 	},
 	backButton: {
@@ -52,7 +52,10 @@ const styles = {
 		border: "none",
 		textDecoration: "none",
 		color: "white",
-		cursor:"pointer"
+		cursor:"pointer",
+		[sizes.down("xs")]: {
+			height: "30px",
+		}
 	}
 }
 
